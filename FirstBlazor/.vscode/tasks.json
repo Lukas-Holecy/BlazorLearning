@@ -1,0 +1,11 @@
+{
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "label": "watch-run",
+            "type": "shell",
+            "command": "dotnet watch --project FirstBlazor.csproj run",
+            "problemMatcher": "$msCompile"
+        }
+    ]
+}
