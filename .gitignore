@@ -382,18 +382,17 @@ FodyWeavers.xsd
 .idea/
 
 # Blazor specific
-wwwroot/dist/
-wwwroot/js/
-wwwroot/css/
+**/wwwroot/dist/
+**/wwwroot/js/
+**/wwwroot/css/
 *.min.css
 *.min.js
 
 # Static assets from package managers
-wwwroot/lib/
-wwwroot/dist/
+**/wwwroot/lib/
 
 # But keep my custom files
-!wwwroot/css/site.css
-!wwwroot/js/site.js
-!wwwroot/images/
-!wwwroot/favicon.ico
+!**/wwwroot/css/site.css
+!**/wwwroot/js/site.js
+!**/wwwroot/images/
+!**/wwwroot/favicon.ico
